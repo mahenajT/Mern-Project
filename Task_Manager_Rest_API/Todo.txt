@@ -1,0 +1,57 @@
+_________________________                                                 5 september, 2024
+
+1. Project File Structure
+ npm init --y
+
+app folder
+  - config
+    - config.js
+  - controllers // Features of project
+    - Task_Controller.js // Create, Read, Update, Delete
+    - User_Controller.js // Login,SignUp,Profile
+  - middlewares
+    - Authentication_Middleware.js
+  - models
+    With Mongoose
+    - TaskModel.js
+    - UserModel.js
+  - utility
+    - Email_Utility.js
+    - Token_Utility.js // JWT Token
+routes folder
+  - api.js
+app.js
+"type":"module", // to use ES6
+ 
+
+2. Project Package Install
+  - cors 
+  - express 
+  - express-rate-limit
+  - helmet
+  - jsonwebtoken
+  - mongoose
+  - nodemailer
+  - nodemon
+
+Config.js
+3. Route Configure
+4. App.js
+5. Postman Initial > Variable - BASE_URL : http://localhost:5050/api
+6. Email Credential Configuration
+7. Write Model Properties
+   - Users Model
+   - Tasks Model
+   
+_________________________                                                 5 september, 2024
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
