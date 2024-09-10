@@ -1,2 +1,9 @@
-export const TokenEncode = async (req, res) => {};
+import { JWT_EXPIRE_TIME, JWT_KEY } from "../configs/configs.js";
+import jwt from "jsonwebtoken";
+export const TokenEncode = (email, user_id) => {
+  const KEY = JWT_KEY;
+  const EXPIRE = { expiresIn: JWT_EXPIRE_TIME };
+  const PAYLOAD = { email: email, user_id: user_id };
+  return jwt.sign(PAYLOAD, KEY, EXPIRE);
+};
 export const TokenDecode = async (req, res) => {};

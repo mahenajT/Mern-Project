@@ -1,3 +1,5 @@
+// configuration file
+
 export const PORT = 5050;
 export const DATABASE_URL = "mongodb+srv://nasrin:nasrin1024@mernbatch-6.zsj87.mongodb.net/TaskManagerAPI";
 export const JWT_KEY = "ABCD";
